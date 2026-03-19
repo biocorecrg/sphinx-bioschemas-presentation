@@ -62,12 +62,12 @@ jobs:
 
               if [ -d docs ]; then
                 cd docs
-                make html
+                make revealjs
                 cd ..
                 # sanitize tag name for filesystem (replace problematic chars)
                 safe_tag="$(echo "$tag" | sed 's/[^A-Za-z0-9._-]/_/g')"
                 rm -rf "site/${safe_tag}"
-                cp -r docs/_build/html "site/${safe_tag}"
+                cp -r docs/_build/revealjs "site/${safe_tag}"
               else
                 echo "No docs directory in tag $tag, skipping."
               fi
@@ -91,10 +91,10 @@ jobs:
 
           if [ -d docs ]; then
             cd docs
-            make html
+            make revealjs
             cd ..
             rm -rf site/latest
-            cp -r docs/_build/html site/latest
+            cp -r docs/_build/revealjs site/latest
           fi
       - name: Copy redirect index.html
         run: cp docs/index.html site/index.html
