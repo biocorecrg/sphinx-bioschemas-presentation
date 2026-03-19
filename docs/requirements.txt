@@ -1,0 +1,5 @@
+myst-parser
+linkify-it-py
+sphinx
+sphinx-bioschemas
+sphinx_revealjs
