@@ -1,0 +1,18 @@
+"@context": "https://schema.org"
+"@type": "PresentationDigitalDocument"
+"name": "Introduction to Sphinx - embedding schemas.org/Bioschemas metadata"
+"description": "An introduction about the Sphinx authoring framework and how it is useful for documentation, training material and even slides presentations. Some use cases are also provided showing how to embed schema.org/Bioschemas profiles using an intended extension."
+"author": 
+  - "@type": "Person"
+    name: "Toni Hermoso Pulido"
+    "@id": "https://orcid.org/0000-0003-2016-6465"
+    url: "https://orcid.org/0000-0003-2016-6465"
+  - "@type": "Organization"
+    name: "Centre for Genomic Regulation"
+    "@id": https://ror.org/03wyzt892
+    url: https://www.crg.eu
+"about":
+  "@type": "SoftwareApplication"
+  "name": "Sphinx"
+  "applicationCategory": "Authoring tool"
+"educationalLevel": "Intermediate"
