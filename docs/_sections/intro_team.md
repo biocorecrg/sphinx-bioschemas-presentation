@@ -1,3 +1,9 @@
 # About our team
 
-Some content about the context
+## Bioinformatics Core Technology @ CRG
+
+
+## Courses
+
+
+## Frameworks used
