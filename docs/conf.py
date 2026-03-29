@@ -49,6 +49,24 @@ revealjs_script_conf = {
     "center": True,
     "transition": "slide",
 }
+revealjs_script_plugins = [
+    {
+        "name": "RevealNotes",
+        "src": "revealjs/plugin/notes/notes.js",
+    },
+    {
+        "name": "RevealHighlight",
+        "src": "revealjs/plugin/highlight/highlight.js",
+    },
+    {
+        "name": "RevealMath",
+        "src": "revealjs/plugin/math/math.js",
+    },
+    {
+        "name": "RevealCustomControls",
+        "src": "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js",
+    },
+]
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
