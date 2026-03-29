@@ -41,7 +41,7 @@ bioschemas = ["schemaorg.yaml"]
 # -- Options for Reveal.js output ---------------------------------------------
 revealjs_html_theme = "revealjs-simple"
 revealjs_static_path = ["_static"]
-# revealjs_style_theme = "custom.css"
+revealjs_style_theme = "custom.css"
 revealjs_script_conf = {
     "controls": True,
     "progress": True,
@@ -67,6 +67,15 @@ revealjs_script_plugins = [
         "src": "https://cdn.jsdelivr.net/npm/reveal.js-plugins@latest/customcontrols/plugin.js",
     },
 ]
+
+# - sphinx_revealjs.ext.sass
+revealjs_sass_src_dir = "_sass"
+revealjs_sass_out_dir = "_static"
+revealjs_sass_targets = {}
+revealjs_sass_include_paths = [
+    get_revealjs_path() / "css" / "theme",
+]
+revealjs_sass_auto_targets = True
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
