@@ -37,6 +37,19 @@ html_context = {
 
 bioschemas = ["schemaorg.yaml"]
 
+
+# -- Options for Reveal.js output ---------------------------------------------
+revealjs_html_theme = "revealjs-simple"
+revealjs_static_path = ["_static"]
+# revealjs_style_theme = "custom.css"
+revealjs_script_conf = {
+    "controls": True,
+    "progress": True,
+    "hash": True,
+    "center": True,
+    "transition": "slide",
+}
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
