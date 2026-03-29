@@ -6,14 +6,13 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-import datetime
-import json
 import os
 
 import yaml
 from myst_parser import __version__
 from sphinx.application import Sphinx
 from sphinx.util.fileutil import copy_asset
+from sphinx_revealjs.utils import get_revealjs_path
 
 project = "Sphinx and embedding Bioschemas"
 copyright = "2026, Centre for Genomic Regulation (CRG)"
