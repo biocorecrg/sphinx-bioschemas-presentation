@@ -85,6 +85,9 @@ extensions = [
     "sphinx_bioschemas",
     "myst_parser",
     "sphinx_revealjs",
+    "sphinx_revealjs.ext.footnotes",
+    "sphinx_revealjs.ext.sass",
+    "sphinx_revealjs.ext.screenshot",
 ]
 
 source_suffix = [".rst", ".md"]
