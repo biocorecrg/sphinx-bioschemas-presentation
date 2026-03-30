@@ -1,19 +1,17 @@
-# Sphinx
-
-## Origin
+## Sphinx
 
 Documentation generator created in the context of the Python community
 
-On top of [Docutils](https://docutils.sourceforge.io/), that allows conversion into different formats (HTML, PDF, etc.)
+On top of [Docutils](https://docutils.sourceforge.io/), that allows conversion into different formats (HTML, PDF, ePub, etc.)
 
-## History
+## Sphinx - History
 
 Versioning: 
 
 - 0.1: March 2008
 - 9.1: December 2025
 
-## Features
+## Sphinx - Features
 
 - Cross-referencing between documents and code
 - Automatic API documentation
@@ -39,7 +37,7 @@ This is a paragraph with **bold** and *italic* text.
 `Link text <https://example.com>`_
 ```
 
-## Examples
+## Sphinx - Examples
 
 Heavily used in many documentation sites:
 

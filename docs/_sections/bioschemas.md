@@ -1,8 +1,8 @@
-# Bioschemas Sphinx extension
+## Bioschemas Sphinx extension
 
-- [https://pypi.org/project/sphinx-bioschemas/](Pypi package)
-- [https://github.com/biocorecrg/sphinx-bioschemas](Project page)
-- [https://biocorecrg.github.io/sphinx-bioschemas/](Documentation)
+- [Pypi package](https://pypi.org/project/sphinx-bioschemas/)
+- [Project page](https://github.com/biocorecrg/sphinx-bioschemas)
+- [Documentation](https://biocorecrg.github.io/sphinx-bioschemas/)
 
 ## Motivation
 
@@ -25,6 +25,8 @@ extensions = [
 # List of YAML or JSON files with schema markup
 bioschemas = ["bioschemas.yaml"]
 ```
+
+### Global
 
 Example `bioschemas.yaml`:
 
@@ -58,6 +60,8 @@ author:
 keywords: sphinx, bioschemas, FAIR
 ```
 ````
+
+### Page-specific
 
 Or by pointing to an external file:
 
