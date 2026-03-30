@@ -10,7 +10,7 @@
 
 Beyond `LearningResource` / `TrainingMaterial`.
 
-**Important**: integrate data and software in the same documentation repository
+**Important**: integrate data and software in the same repository
 
 - `Dataset` — for data-heavy documentation sites
 - `SoftwareSourceCode` — for software/tool documentation
