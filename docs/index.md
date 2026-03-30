@@ -2,7 +2,7 @@
 
 **Embedding schema.org / Bioschemas metadata**
 
-::::{.align-right}
+::::{container} align-right
 [Toni Hermoso Pulido](https://orcid.org/0000-0003-2016-6465)
 
 ELIXIR FAIR Training Working Group
