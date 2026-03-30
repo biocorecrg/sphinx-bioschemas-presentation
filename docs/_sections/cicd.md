@@ -85,7 +85,7 @@ pyenv virtualenv 3.12.11 my_sphinx_env
 
 cd docs # Go to docs directory
 
-pyen local my_sphinx_env
+pyenv local my_sphinx_env
 pip install -r requirements.txt
 
 make html

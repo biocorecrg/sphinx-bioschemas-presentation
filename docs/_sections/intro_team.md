@@ -1,6 +1,6 @@
 ## Biocore @ CRG
 
-**Bioinformatics Core Technology Unit @ CRG**
+[Bioinformatics Core Technology Unit @ CRG](https://biocore.crg.eu)
 
 ![Biocore team 2024](https://biocore.crg.eu/w/img_auth.php/thumb/d/d4/Biocore_2024.jpg/1200px-Biocore_2024.jpg){.r-stretch}
 
