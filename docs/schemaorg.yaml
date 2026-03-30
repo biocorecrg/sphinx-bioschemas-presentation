@@ -15,4 +15,6 @@
   "@type": "SoftwareApplication"
   "name": "Sphinx"
   "applicationCategory": "Authoring tool"
+inLanguage: "en"
+license: "https://opensource.org/licenses/MIT"
 "educationalLevel": "Intermediate"
