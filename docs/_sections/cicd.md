@@ -1,9 +1,12 @@
-## CI/CD Deployment
+## CI/CD deployment
 
 Sphinx docs can be built and published automatically on every push:
 
 - Both **GitHub Pages** and **GitLab Pages** are supported
 - Triggered on changes to `docs/**` on `main`/`master`
+
+## CI/CD deployment
+
 - Builds versioned docs for each git tag + a `latest` snapshot
 - Requires a `docs/requirements.txt` listing Sphinx dependencies
 
@@ -13,6 +16,7 @@ Sphinx docs can be built and published automatically on every push:
 
 - Example: [pages.yml](https://github.com/biocorecrg/introduction-containers-course/blob/main/.github/workflows/pages.yml)
 
+::::{container} small-code
 ```yaml
 name: Deploy Sphinx documentation to Pages
 
@@ -39,11 +43,13 @@ jobs:
           path: site
       - uses: actions/deploy-pages@v4
 ```
+::::
 
 ### GitLab Pages
 
-- Example: [.gitlab-ci.yml](https://github.com/biocorecrg/introduction-containers-course/blob/main/.gitlab-ci.yml) 
+- Example: [.gitlab-ci.yml](https://github.com/biocorecrg/introduction-containers-course/blob/main/.gitlab-ci.yml)
 
+::::{container} small-code
 ```yaml
 image: python:3.12
 
@@ -68,20 +74,21 @@ pages:
     paths: [public]
   only: [main]
 ```
+::::
 
 ### Test in local
 
 `conf.py` and `Makefile` needed
 
 ````
-pyenv virtualenv 3.12.11 mysphinxenv
+pyenv virtualenv 3.12.11 my_sphinx_env
 
 cd docs # Go to docs directory
 
+pyen local my_sphinx_env
 pip install -r requirements.txt
 
 make html
-
 # Go to _build directory and check result...
 
 ````
