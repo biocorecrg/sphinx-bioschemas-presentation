@@ -18,9 +18,9 @@ ELIXIR FAIR Training Working Group
 :::
 :::{include} _sections/bioschemas.md
 :::
-:::{include} _sections/challenges.md
-:::
 :::{include} _sections/cicd.md
+:::
+:::{include} _sections/challenges.md
 :::
 :::{include} _sections/end.md
 :::
