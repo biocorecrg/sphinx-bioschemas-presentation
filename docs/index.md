@@ -7,7 +7,7 @@
 
 ELIXIR FAIR Training Working Group
 
-2026, March 1
+2026-04-01
 ::::
 
 :::{include} _sections/intro_team.md
