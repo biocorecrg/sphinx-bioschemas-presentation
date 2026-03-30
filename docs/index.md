@@ -1,6 +1,14 @@
-# Introduction to Sphinx - Embedding schema.org/Bioschemas metadata
+## Introduction to Sphinx
 
-This is a test
+**Embedding schema.org/Bioschemas metadata**
+
+:::{style="text-align: right"}
+[Toni Hermoso Pulido](https://orcid.org/0000-0003-2016-6465)
+
+ELIXIR FAIR Training Working Group
+
+2026, March 1
+:::
 
 :::{include} _sections/intro_team.md
 :::

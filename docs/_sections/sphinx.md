@@ -4,21 +4,21 @@ Documentation generator created in the context of the Python community
 
 On top of [Docutils](https://docutils.sourceforge.io/), that allows conversion into different formats (HTML, PDF, ePub, etc.)
 
-## Sphinx - History
+### Sphinx - History
 
 Versioning: 
 
 - 0.1: March 2008
 - 9.1: December 2025
 
-## Sphinx - Features
+### Sphinx - Features
 
 - Cross-referencing between documents and code
 - Automatic API documentation
 - Multiple output formats (HTML, PDF, ePub)
 - Extensible via plugins and themes
 
-## reStructuredText
+### reStructuredText
 
 Default markup language used:
 
@@ -37,7 +37,7 @@ This is a paragraph with **bold** and *italic* text.
 `Link text <https://example.com>`_
 ```
 
-## Sphinx - Examples
+### Sphinx - Examples
 
 Heavily used in many documentation sites:
 

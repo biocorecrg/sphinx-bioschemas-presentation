@@ -1,8 +1,10 @@
-## Bioinformatics Core @ CRG
+## Biocore @ CRG
+
+**Bioinformatics Core Technology Unit @ CRG**
 
 ![Biocore team 2024](https://biocore.crg.eu/w/img_auth.php/thumb/d/d4/Biocore_2024.jpg/1200px-Biocore_2024.jpg){.r-stretch}
 
-## Courses
+### Courses
 
 Internal and external
 
@@ -14,7 +16,7 @@ Internal and external
 - Nanopore analyses
 
 
-## Frameworks used
+### Frameworks used
 
 - R Markdown
 - Jekyll

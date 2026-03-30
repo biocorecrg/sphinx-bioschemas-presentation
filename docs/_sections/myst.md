@@ -3,7 +3,7 @@
 - [MyST parser](https://myst-parser.readthedocs.io/en/latest/)
 - [MyST](https://mystmd.org/)
 
-## Markdown
+### Markdown
 
 Why Markdown matters for documentation:
 
@@ -12,7 +12,7 @@ Why Markdown matters for documentation:
 - Low barrier to entry for contributors unfamiliar with reStructuredText
 - Enables documentation to live closer to code in the same ecosystem
 
-## Markdown Example
+### Markdown Example
 
 ```markdown
 # Title
@@ -27,7 +27,7 @@ A paragraph with **bold**, *italic*, and `inline code`.
 ![Image alt text](image.png)
 ```
 
-## Markdown Dialects
+### Markdown Dialects
 
 Not all Markdown is equal — several dialects exist:
 
@@ -36,7 +36,7 @@ Not all Markdown is equal — several dialects exist:
 - **Pandoc Markdown**: rich extension set targeting multi-format conversion
 - **MyST (Markedly Structured Text)**: designed specifically for technical and scientific documentation with Sphinx
 
-## MyST
+### MyST
 
 MyST bridges Markdown and Sphinx's full power:
 
@@ -45,14 +45,14 @@ MyST bridges Markdown and Sphinx's full power:
 - First-class support for cross-references, math, and code execution (via Jupyter)
 - Allows teams to write Sphinx documentation without learning reStructuredText
 
-## MyST Origins
+### MyST Origins
 
 - Created by the [Executable Books Project](https://executablebooks.org/) in 2020
 - Born from the need to write Sphinx documentation in Markdown for Jupyter Book
 - Maintained as part of the broader scientific and technical publishing ecosystem
 - `myst-parser` is the Sphinx extension that enables MyST in any Sphinx project
 
-## Migrating from reStructuredText
+### Migrating from reStructuredText
 
 `rst-to-myst` is a tool that automates conversion of `.rst` files to MyST Markdown:
 
@@ -69,51 +69,4 @@ rst2myst convert docs/**/*.rst
 
 Output is valid MyST — directives, roles, and cross-references are all preserved.
 
-## Admonitions
-
-Call-out blocks to highlight important content ([ref](https://myst-parser.readthedocs.io/en/latest/syntax/admonitions.html)):
-
-```markdown
-:::{note}
-This is a note for the reader.
-:::
-
-:::{warning}
-Be careful with this step.
-:::
-
-:::{tip}
-You can also use `{important}`, `{caution}`, or `{danger}`.
-:::
-```
-
-## Roles and Directives
-
-MyST exposes Sphinx directives and roles with Markdown syntax:
-
-```markdown
-% A directive with options
-:::{code-block} python
-:linenos:
-def hello():
-    print("Hello, world!")
-:::
-
-% An inline role
-See {ref}`my-label` or {doc}`other-page` for details.
-```
-
-## Cross-references
-
-Linking across pages and sections without hard-coded URLs ([ref](https://myst-parser.readthedocs.io/en/latest/syntax/cross-referencing.html)):
-
-```markdown
-(my-section-label)=
-## My Section
-
-Refer to it elsewhere with {ref}`my-section-label`.
-
-% Or link to another document
-See also {doc}`../other/page`.
-```
 

@@ -4,7 +4,7 @@
 - [Project page](https://github.com/biocorecrg/sphinx-bioschemas)
 - [Documentation](https://biocorecrg.github.io/sphinx-bioschemas/)
 
-## Motivation
+### Motivation
 
 - Simplify the process of including [Schema.org](https://schema.org/docs/schemas.html) or [Bioschemas profiles](https://bioschemas.org/profiles/)
 - Allow embedding JSON+LD in a simpler way (YAML) 
